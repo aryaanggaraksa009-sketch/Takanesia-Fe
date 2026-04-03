@@ -1,5 +1,9 @@
 const HeroSection = () => {
-    return <section id="hero-section" className="container mx-auto h-screen flex"></section>;
+    return <section id="hero-section" className="container mx-auto h-screen flex">
+        <div className="block--hero-img">
+            <img src="/images/fanbase profile.jpg" alt="takanesia img" />
+        </div>
+    </section>;
 };
 
 export default HeroSection;
