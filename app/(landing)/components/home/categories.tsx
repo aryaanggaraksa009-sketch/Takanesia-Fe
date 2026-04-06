@@ -35,15 +35,17 @@ const categoryList = [
 
 const CategoriesSection = () => {
   return (
-    <section id="category-section" className="container mx-auto pb-20 mt-65">
-      <div className="grid grid-cols-6 gap-10 mt-8 px-15 ">
+    <section id="category-section" className="container mx-auto pb-20 mt-80">
+       <div className="flex flex-col items-center">
+        <h2 className="font-bold text-2xl">Hadir untuk fans indonesia yang ingin mendukung perjalanan Takaneko ✨</h2>
+      <div className="grid grid-cols-6 gap-10 mt-8 px-15">
         {categoryList.map((category, index) => (
           <a
             href={category.link}
             target="_blank"
             rel="noopener noreferrer"
             key={index}
-            className="mt-10 rounded-lg bg-gradient-to-r from-[#F1F1F1] to-[#F7F7F7] w-full aspect-square flex justify-center category-btn bg-white rounded-lg shadow-md shadow-md hover:shadow-lg active:shadow-xs transition-shadow duration-400 ease-in-out p-4 cursor-pointer" 
+            className="mt-10 rounded-lg bg-gradient-to-r from-[#F1F1F1] to-[#F7F7F7] w-full aspect-square flex justify-center category-btn bg-white rounded-lg shadow-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 ease-in-out p-4 cursor-pointer" 
           >
             <div className="self-center">
               <Image
@@ -53,12 +55,13 @@ const CategoriesSection = () => {
                 alt={category.name}
                 className="mb-[10px]"
               />
-              <div className="text-primary font-medium text-xl text-center">
+              <div className="font-medium text-xl text-center">
                 {category.name}
               </div>
             </div>
           </a>
         ))}
+      </div>
       </div>
     </section>
   );
