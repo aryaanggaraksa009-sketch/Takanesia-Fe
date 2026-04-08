@@ -35,7 +35,7 @@ const categoryList = [
 
 const CategoriesSection = () => {
   return (
-    <section id="category" className="container mx-auto pb-20 mt-80">
+    <section id="category" className="container mx-auto pb-20 mt-20">
        <div className="flex flex-col items-center">
         <h2 className="font-bold text-2xl">Hadir untuk fans indonesia yang ingin mendukung perjalanan Takaneko ✨</h2>
       <div className="grid grid-cols-6 gap-10 mt-8 px-15">

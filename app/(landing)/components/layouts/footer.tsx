@@ -21,10 +21,9 @@ const Footer = () => {
         </div>
         <div className="w-105 grid grid-cols-2">
           <div className="flex gap-7 flex-col">
-            <Link href="hero">Home</Link>
-            <Link href="category">Category</Link>
-            <Link href="members">Members</Link>
-            <Link href="about">About Us</Link>
+            <Link href="#hero">Home</Link>
+            <Link href="#filosofi">Filosofi</Link>
+            <Link href="#members">Members</Link>
           </div>
           <div className="flex gap-7 flex-col">
             <Link href="https://www.instagram.com/takanesia.id" target="_blank" rel="noopener noreferrer">
