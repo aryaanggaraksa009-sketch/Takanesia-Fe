@@ -9,7 +9,7 @@ const categoryList = [
   {
     name: "Facebook",
     imgUrl: "category-facebook.png",
-    link: "https://www.facebook.com/888918520964565?ref=PROFILE_EDIT_xav_ig_profile_page_web",
+    link: "https://www.facebook.com/people/Takanesia-ID/61582971665549/?ref=PROFILE_EDIT_xav_ig_profile_page_web#",
   },
   {
     name: "Instagram",
@@ -35,7 +35,7 @@ const categoryList = [
 
 const CategoriesSection = () => {
   return (
-    <section id="category-section" className="container mx-auto pb-20 mt-80">
+    <section id="category" className="container mx-auto pb-20 mt-80">
        <div className="flex flex-col items-center">
         <h2 className="font-bold text-2xl">Hadir untuk fans indonesia yang ingin mendukung perjalanan Takaneko ✨</h2>
       <div className="grid grid-cols-6 gap-10 mt-8 px-15">

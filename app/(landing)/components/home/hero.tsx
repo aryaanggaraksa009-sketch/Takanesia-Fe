@@ -1,5 +1,5 @@
 const HeroSection = () => {
-    return <section id="hero-section" className="container mx-auto h-screen">
+    return <section id="hero" className="container mx-auto h-screen">
         <div className="container">
             <img src="/images/fanbase profile.jpg" alt="takanesia img" />
         </div>

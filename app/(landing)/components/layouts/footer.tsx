@@ -21,16 +21,24 @@ const Footer = () => {
         </div>
         <div className="w-105 grid grid-cols-2">
           <div className="flex gap-7 flex-col">
-            <Link href="#">Home</Link>
-            <Link href="#">Categories</Link>
-            <Link href="#">Products</Link>
-            <Link href="#">About Us</Link>
+            <Link href="hero">Home</Link>
+            <Link href="category">Category</Link>
+            <Link href="members">Members</Link>
+            <Link href="about">About Us</Link>
           </div>
           <div className="flex gap-7 flex-col">
-            <Link href="#">Instagram</Link>
-            <Link href="#">Facebook</Link>
-            <Link href="#">TikTok</Link>
-            <Link href="#">YouTube</Link>
+            <Link href="https://www.instagram.com/takanesia.id" target="_blank" rel="noopener noreferrer">
+              Instagram
+            </Link>
+            <Link href="https://www.facebook.com/people/Takanesia-ID/61582971665549/?ref=PROFILE_EDIT_xav_ig_profile_page_web#" target="_blank" rel="noopener noreferrer">
+              Facebook
+            </Link>
+            <Link href="https://www.tiktok.com/@takanesia.id" target="_blank" rel="noopener noreferrer">
+              TikTok
+            </Link>
+            <Link href="https://www.youtube.com/@TakanesiaID" target="_blank" rel="noopener noreferrer">
+              YouTube
+            </Link>
           </div>
         </div>
       </div>

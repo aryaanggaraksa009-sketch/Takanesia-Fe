@@ -65,7 +65,7 @@ const memberList = [
 
 const MemberSection = () => {
   return (
-    <section id="members-section" className="container mx-auto mt-25 py-20 bg-gradient-to-b from-pink-50 to-white" >
+    <section id="members" className="container mx-auto mt-25 py-20 bg-gradient-to-b from-pink-50 to-white" >
       <h2 className="font-bold built titling text-4xl text-center mb-11">
         ✿TAKANEKO MEMBER✿
       </h2>
