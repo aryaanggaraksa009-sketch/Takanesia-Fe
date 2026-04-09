@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white mt-52">
+    <footer className="bg-gray-900 text-white mt-31">
       <div className="container flex justify-between pt-14 pb-9">
         <div className="w-105 mx-7">
           <Image
@@ -15,9 +15,6 @@ const Footer = () => {
           <p className="mt-8">
             Kami hadir sebagai wadah untuk menyatukan para fans Indonesia yang ingin berbagi kabar, momen, dan semangat mendukung perjalanan Takane no Nadeshiko✨
           </p>
-          <p className="mt-12">
-        ~ Dibuat dengan cinta oleh mas Arya ~         
-        </p>
         </div>
         <div className="w-105 grid grid-cols-2">
           <div className="flex gap-7 flex-col">
