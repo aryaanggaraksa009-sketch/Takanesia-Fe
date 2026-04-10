@@ -1,11 +1,14 @@
 import Link from "next/dist/client/link";
 import Image from "next/image";
 import { FiMoreVertical, FiSearch } from "react-icons/fi";
+import CartPopup from "../ui/cart-popup";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow z-50">
-        <div className="flex justify-between gap-10 container mx-auto py-2 px-5">        
-            <Image src="/images/logo1.png" alt="takanesia logo" width={100} height={30}  />
+        <div className="flex justify-between gap-10 container mx-auto py-2 px-5">
+          <a href="#hero">       
+            <Image src="/images/logo1.png" alt="takanesia logo" width={100} height={30}/>
+          </a>
              <nav className="flex gap-24 font-medium py-5">
           <Link href="#hero">Home</Link>
           <Link href="#filosofi">Filosofi</Link>
@@ -15,6 +18,7 @@ const Header = () => {
                 <FiMoreVertical size={24}/>
                 <FiSearch size={24}/>
             </div>
+            <CartPopup />
         </div>
     </header>
   );

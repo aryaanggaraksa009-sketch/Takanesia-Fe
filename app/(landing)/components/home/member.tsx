@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MemberDetail from "../../member/[id]/page";
 
 const memberList = [
   {
@@ -72,9 +73,9 @@ const MemberSection = () => {
       <div className="grid grid-cols-4 gap-10 mt-8 px-15">
         {memberList.map((member, index) => (
           <Link
-            href="#"
+            href={`/member/${member.name}`}
             key={index}
-            className="p-1.5" 
+            className="p-1.5"
           >
             <div className="overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-gray-500 group rounded-full object-cover">
               <Image
@@ -88,7 +89,7 @@ const MemberSection = () => {
             <h3 className="font-medium text-lg mb-1.5 mt-4">{member.name}</h3>
             <div className="flex justify-between mb-8">
               <div className="text-black-500">{member.Romaji}</div>
-                <div className="item-center gap-4">{member.panggilan}</div>
+              <div className="item-center gap-4">{member.panggilan}</div>
             </div>
           </Link>
         ))}

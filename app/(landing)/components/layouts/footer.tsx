@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white mt-31">
-      <div className="container flex justify-between pt-14 pb-9">
+    <footer className="bg-dark-alternate text-white mt-31">
+      <div className="container mx-auto flex justify-between pt-14 pb-9">
         <div className="w-105 mx-7">
           <Image
-            src="/images/logo1.png"
+            src="/images/logo-footer.png"
             alt="logo Takanesia"
             width={100}
             height={44}
