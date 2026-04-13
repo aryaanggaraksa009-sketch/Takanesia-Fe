@@ -1,63 +1,73 @@
 import Image from "next/image";
 import Link from "next/link";
-import MemberDetail from "../../member/[id]/page";
 
 const memberList = [
   {
+    slug: "kizuki-nao",
     name: "城月 菜央",
     Romaji: "KIZUKI NAO",
     panggilan: "(Senshu)",
     imgUrl: "member-1.jpeg",
   },
   {
+    slug: "suzumi-suu",
     name: "涼海 すう",
     Romaji: "SUZUMI SUU",
     panggilan: "(Suu-chan)",
     imgUrl: "member-2.jpeg",
   },
   {
+    slug: "hashimoto-momoko",
     name: "橋本 桃呼",
     Romaji: "HASHIMOTO MOMOKO",
     panggilan: "(Momo-chan)",
     imgUrl: "member-3.jpeg",
   },
   {
+    slug: "hazuki-saara",
     name: "葉月 紗蘭",
     Romaji: "HAZUKI SAARA",
     panggilan: "(Saa-chan)",
     imgUrl: "member-4.jpeg",
   },
   {
+    slug: "higashiyama-erisa",
     name: "東山 恵里沙",
     Romaji: "HIGASHIYAMA ERISA",
     panggilan: "(Richan)",
     imgUrl: "member-5.jpeg",
   },
   {
+    slug: "hinahata-hina",
     name: "日向端 ひな",
     Romaji: "HINAHATA HINA",
     panggilan: "(Hinatama)",
     imgUrl: "member-6.jpeg",
   },
   {
+    slug: "hoshitani-mikuru",
     name: "星谷 美来",
     Romaji: "HOSHITANI MIKURU",
     panggilan: "(Mikurun)",
     imgUrl: "member-7.jpeg",
   },
   {
+    slug: "matsumoto-momona",
     name: "松本ももな",
     Romaji: "MATSUMOTO MOMONA",
     panggilan: "(Momonan)",
     imgUrl: "member-8.jpeg",
+    Image: ""
   },
   {
+    slug: "momiyama-himeri",
     name: "籾山 ひめり",
     Romaji: "MOMIYAMA HIMERI",
     panggilan: "(Momichan)",
     imgUrl: "member-9.jpeg",
   },
   {
+    slug: "unknown-member",
     name: "??????",
     Romaji: "??????",
     imgUrl: "member-10.jpg",
