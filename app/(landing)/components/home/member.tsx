@@ -83,7 +83,7 @@ const MemberSection = () => {
       <div className="grid grid-cols-4 gap-10 mt-8 px-15">
         {memberList.map((member, index) => (
           <Link
-            href={`/member/${member.name}`}
+            href={`/member/${member.slug}`}
             key={index}
             className="p-1.5"
           >
