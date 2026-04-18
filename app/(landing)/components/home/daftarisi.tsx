@@ -1,10 +1,9 @@
-import { link } from "fs";
-import Link from "next/dist/client/link";
+import Link from "next/link";
+
 
 const daftarisiList = [
   {
-    name: "LOGO",
-    link: "/daftarisi/logo"
+    name: "LOGO"
   },
   {
     name: "PALET WARNA",
@@ -23,7 +22,7 @@ const daftarisiList = [
   },
 ];
 
-const DaftarisiSection = () => {
+const DaftarIsiSection = () => {
     return (
         <section id="daftarisi" className="container mx-auto mt- py-5">
             <h2 className="font-bold text-2xl text-center">Daftar Isi</h2>
@@ -31,7 +30,7 @@ const DaftarisiSection = () => {
                 <div className="flex flex-col ml-85 space-y-9 px-4">
                 {daftarisiList.slice(0, 3).map((daftarisi, index) => (
                     <Link
-                    href={`/${daftarisi.name}`}
+                    href={`/daftar${daftarisi.name}`}
                     key={index}
                     className="rounded-lg bg-gradient-to-r from-[#F1F1F1] to-[#F7F7F7] 
                                 w-45 h-13 flex items-center justify-center 
@@ -60,4 +59,4 @@ const DaftarisiSection = () => {
     );
 };
 
-export default DaftarisiSection;
+export default DaftarIsiSection;
