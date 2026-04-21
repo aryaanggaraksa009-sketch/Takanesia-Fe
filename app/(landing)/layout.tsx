@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "TAKANESIA ID Website",
+  title: "TAKANESIA_ID Website",
   description: "Hadir untuk fans indonesia yang ingin mendukung perjalanan Takaneko ✨",
 };
 

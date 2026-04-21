@@ -1,7 +1,7 @@
 import AdminSection from "./components/home/admin";
 import CategoriesSection from "./components/home/categories";
-import DaftarisiSection from "./components/home/daftarisi";
 import FilosofiSection from "./components/home/Filosofi";
+import DaftarIsiSection from "./components/home/daftarisi";
 import HeroSection from "./components/home/hero";
 import MemberSection from "./components/home/member";
 
@@ -11,7 +11,7 @@ export default function Home() {
       <HeroSection />
       <CategoriesSection />
       <FilosofiSection />
-      <DaftarisiSection />
+      <DaftarIsiSection />
       <MemberSection />
       <AdminSection />
     </main>
