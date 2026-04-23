@@ -46,11 +46,11 @@ const FilosofiSection = () => {
   };
 
   return (
-    <section id="filosofi" className=" rounded-lg container mx-auto h-screen relative">
-        <div className="text-center">
+    <section id="filosofi" className=" rounded-lg container mx-auto relative">
+        <div className="text-center mb-10">
         <h1 className="text-2xl font-bold">Filosofi takanesia</h1>
       </div>
-      <div className="w-full h-full flex items-center justify-center relative">
+      <div className="flex items-center justify-center relative">
         <img
             src={images[currentIndex]}
             alt={`slide-${currentIndex}`}

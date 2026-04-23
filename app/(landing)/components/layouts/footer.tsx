@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark-alternate text-white mt-31">
+    <footer className="mx-auto bg-dark-alternate text-white mt-31">
       <div className="container mx-auto flex justify-between pt-14 pb-9">
         <div className="w-105 mx-7">
           <Image
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-t-white/15">
+      <div className="mx-auto border-t border-t-white/15">
         <div className="mx-7 py-6 flex">
           <div>Takanesia © 2026 All Rights Reserverd.</div>
           <div className="grid grid-cols-2 w-105 ml-120">
