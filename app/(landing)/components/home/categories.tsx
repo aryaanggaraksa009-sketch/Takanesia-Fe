@@ -47,7 +47,7 @@ const CategoriesSection = () => {
             key={index}
             className="mt-10 rounded-lg bg-gradient-to-r from-[#F1F1F1] to-[#F7F7F7] w-full aspect-square flex justify-center category-btn bg-white rounded-lg shadow-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 ease-in-out p-4 cursor-pointer" 
           >
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src={`/images/categories/${category.imgUrl}`}
                 width={86}
@@ -55,7 +55,7 @@ const CategoriesSection = () => {
                 alt={category.name}
                 className="mb-[10px]"
               />
-              <div className="font-medium text-xl text-center">
+              <div className="font-medium text-xl text-center container mx-auto">
                 {category.name}
               </div>
             </div>

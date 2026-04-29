@@ -33,9 +33,9 @@ const DaftarIsiSection = () => {
     return (
         <section id="daftarisi" className="container mx-auto mt-10 py-5">
             <h2 className="font-bold text-2xl text-center">Daftar Isi</h2>
-            <div className="grid grid-cols-2 divide-x divide-gray-300 mt-8">
-                <div className="flex flex-col item-center ml-85 space-y-9 px-4 flex-shrink-0 text-base whitespace-nowrap">
-                    {daftarisiList.slice(0, 3).map((daftarisi, index) => (
+            <div className="grid grid-cols-2 mt-8">
+                <div className="flex flex-col space-y-9 px-4 mx-auto justify-center">
+                    {daftarisiList.slice(0, 3).map((daftarisi) => (
                         <Link
                             href={`/daftar-isi${daftarisi.id}`}
                             key={daftarisi.id}
@@ -48,7 +48,7 @@ const DaftarIsiSection = () => {
                     ))}
                 </div>
                 <div className="flex flex-col ml-19 space-y-9 px-4">
-                    {daftarisiList.slice(3, 6).map((daftarisi, index) => (
+                    {daftarisiList.slice(3).map((daftarisi) => (
                         <Link
                             href={`/daftar-isi${daftarisi.id}`}
                             key={daftarisi.id}
